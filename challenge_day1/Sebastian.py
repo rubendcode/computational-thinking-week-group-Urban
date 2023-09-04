@@ -1,10 +1,15 @@
+from Xiao import xiao_charachter
+from ruben import ruben_character
+from sofia import sofia_character
+from Kelt import kelt_character
+
 def Sebastian():
     return "Sebastian"
 
 sebastian_character = "Luna"
 
 sebastian_paragraphs = [
-    "Luna felt a shiver run down her spine, seeing the map. Beside her, Marcus, Elara, Orion, and Draco pondered its origins.",
-    "Under the moonlight, Luna played a tune on her flute, mesmerizing Marcus, Elara, Orion, and Draco.",
-    "With the dawn's first light, Luna guided Marcus, Elara, Orion, and Draco through the dense forest."
+    f"{sebastian_charcter} felt a shiver run down her spine, seeing the map. Beside her, {xiao_charachter}, {kelt_character}, {ruben_character}, ad {sofia_character} pondered its origins.",
+    f"Under the moonlight, {sebastian_character} played a tune on her flute, mesmerizing {xiao_charachter}, {kelt_character}, {ruben_character}, ad {sofia_character}.",
+    f"With the dawn's first light, {sebastian_character} guided {xiao_charachter}, {kelt_character}, {ruben_character}, ad {sofia_character} through the dense forest."
 ]
